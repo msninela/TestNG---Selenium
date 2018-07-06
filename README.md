@@ -16,4 +16,4 @@ Currently, not all drivers are not packaged with this project, but they may be i
 Launch your IDE, and under ```C:\Users\ninmal01\Documents\Global Kinetic\TestNG Selenium\src\main\java\com\company\seleniumframework``` you'll find your tests under the functional_area package.  This is a very short a simple test. 
 If you do not have Chromedriver installed, just switch the browser to ```FIREFOX``` and right click the file and ```Run As -> jUnit Test```
 
-This project is a sample project that uses the [Conductor Framework](http://conductor.ddavison.io).  You can download this project to see quickly how you can layout your tests, and libraries.
+Please contact msninela@gmail, in any case.
