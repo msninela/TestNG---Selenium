@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Functional Test">
+<parameter name="appURL" value="http://ddavison.github.io/tests/getting-started-with-selenium.htm"/>
+<parameter name="browserType" value="chrome"/>
+
+
+<test name="chrome test">
+  <classes>
+       <class name="com.company.seleniumframework.functional_area.SampleFunctionalTest"/>
+   </classes>
+</test>
+
+    <test name="IE test">
+        <classes>
+            <class name="com.company.seleniumframework.functional_area.SampleFunctionalTest"/>
+        </classes>
+    </test>
+</suite >
