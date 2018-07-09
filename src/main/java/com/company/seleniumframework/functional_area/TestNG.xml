@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Functional Test">
+<parameter name="appURL" value="https://www.superbru.com/home/index.php?"/>
+<parameter name="browserType" value="chrome"/>
+    <parameter name="browserType" value="InternetExplorer"/>
+
+
+<test name="chrome_test">
+  <classes>
+       <class name="com.company.seleniumframework.functional_area.SampleFunctionalTest"/>
+   </classes>
+</test>
+
+    <!--
+    <test name="IE_test">
+        <classes>
+            <class name="com.company.seleniumframework.functional_area.SampleFunctionalTest"/>
+        </classes>
+    </test>
+    -->
+</suite >
